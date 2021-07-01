@@ -1,0 +1,131 @@
+@import url('style.css');
+
+
+@media all and (max-width: 768px){
+/*****************************
+********skills start**********
+******************************/
+
+
+	.skills__all{
+		display: flex;	
+		flex-direction: column;
+		allign-items: center !important;
+		
+	}
+
+/*****************************
+********skills ends**********
+******************************/
+
+
+
+/*****************************
+********portfolio starts******
+******************************/
+	.portfolio_yandex{
+		order: 1;
+	}
+/*****************************
+********portfolio ends********
+******************************/
+
+
+
+/*****************************
+********footer starts*********
+******************************/
+	.footer__textarea,
+	.footer__input{
+		width: 400px;
+	}
+/*****************************
+********footer ends***********
+******************************/
+}
+@media all and (max-width: 576px){
+
+/*****************************
+********about starts**********
+******************************/
+	.about__answer{
+		margin-left: 10px;
+	}
+	.about__signature{
+		display: none;
+	}
+	.signature{
+		display: none;
+	}
+	.about__photo{
+		display: none;
+	}
+/*****************************
+********about starts**********
+******************************/
+
+/*****************************
+********skills starts*********
+******************************/
+
+	.bg-line_grey{
+	    width: 200px;	
+	}
+	.skills__all:hover .bg-line_HTML{
+	    width: 180px;
+	}
+	.skills__all:hover .bg-line_CSS{
+	    width: 180px;
+	}
+	.skills__all:hover .bg-line_bootstrap{
+	    width: 100px;
+	}
+	.skills__all:hover .bg-line_JS{
+	    width: 0px;
+	}
+	.skills__all:hover .bg-line_beaut{
+	    width: 220px;
+	}
+	.skills__all:hover .skill__percent_HTML{
+	    transform: translatex(180px);
+	}
+	.skills__all:hover .skill__percent_CSS{
+	    transform: translatex(180px);
+	}
+	.skills__all:hover .skill__percent_bootstrap{
+	    transform: translatex(100px);
+	}
+	.skills__all:hover .skill__percent_JS{
+	    transform: translatex(0px);
+	}
+	.skills__all:hover .skill__percent_beaut{
+	    transform: translatex(220px);
+	}
+	.skills__col_right{
+		display: none;
+	}
+
+/*****************************
+********skills end************
+******************************/
+
+
+
+/*****************************
+********footer starts**********
+******************************/
+
+	.footer__textarea,
+	.footer__input{
+		width: 200px;
+	}
+	.footer__button{
+		width: 100px;
+	}
+	.footer__title{
+		font-size: 20px;
+	}
+/*****************************
+********footer ends***********
+******************************/
+}	
